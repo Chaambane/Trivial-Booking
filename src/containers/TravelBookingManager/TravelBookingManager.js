@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Navbar from '../../components/Navbar/Navbar';
+import Options from '../../components/Options/Options';
 
 class TravelBookingManager extends Component {
     render() {
@@ -7,7 +8,7 @@ class TravelBookingManager extends Component {
             <>
                 <Navbar/>
                 <main className="container">
-                    ongletsBox <br />
+                    <Options/>
                     searchBox <br />
                     Un week-end de rêve Box <br />
                     Vous aimeriez aussi Box <br />
