@@ -1,0 +1,28 @@
+.navH1{
+    color: #4ac6bb;
+}
+.navTogglerBtn > span{
+    font-family: 'Inter', sans-serif;
+}
+.navUl > li{
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    font-family: 'Inter', sans-serif;
+}
+.navUl > li:hover{
+    background-color: #f8dd74;
+    border-radius: 2rem;
+}   
+.navUl > li > a{
+    color: #4ac6bb !important;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.signIn{
+    background-color: #f8dd74;
+    border-radius: 2rem;
+}
+.signIn:hover{
+    background-color: #dfcd89;
+    border-radius: 2rem;
+}
