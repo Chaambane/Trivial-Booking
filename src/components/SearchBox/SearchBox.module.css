@@ -1,0 +1,24 @@
+.searchB > img{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    border-radius: 2rem;
+}
+.formDiv{
+    position: fixed;
+    top: 23rem;
+    left: 10rem;
+}
+.formSearch{
+    width: 480px;
+    height: 80px;
+    opacity: 0.3;
+}
+.formSearch > input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #fff !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
