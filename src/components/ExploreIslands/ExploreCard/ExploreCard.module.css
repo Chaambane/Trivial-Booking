@@ -1,0 +1,14 @@
+.cardStyle{
+    width: 21rem;
+    text-decoration: none;
+}
+.cardStyle > div{
+    color: #4ac6bb;
+}
+.cardStyle > div:hover{
+    border: 0.2rem solid #f8dd74;
+    transition: 0.3s ease-in;
+}
+.cardStyle > .card > .card-title{
+    color: #4ac6bb !important;
+}

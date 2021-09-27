@@ -1,0 +1,11 @@
+.cardXlStyle{
+    text-decoration: none;
+    color: #4ac6bb;
+}
+.cardXlStyle:hover{
+    color: #4ac6bb;
+}
+.cardXlStyle > div:hover{
+    border: 0.2rem solid #f8dd74;
+    transition: 0.3s ease-in;
+}
