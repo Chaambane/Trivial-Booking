@@ -5,7 +5,7 @@
     border-radius: 2rem;
 }
 .formDiv{
-    position: fixed;
+    position: absolute;
     top: 23rem;
     left: 10rem;
 }
