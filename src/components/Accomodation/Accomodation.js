@@ -1,5 +1,5 @@
 import React from 'react';
-import AccomodationCard from './AccomodationCard/AccomodationCard';
+import AccomodationCard from '../AccomodationCard/AccomodationCard';
 import Hotels from '../../assets/images/accommodationType/Hotels.jpg'
 import Appartement from '../../assets/images/accommodationType/Appartements.jpg'
 import Complexes from '../../assets/images/accommodationType/complexes.jpg'
