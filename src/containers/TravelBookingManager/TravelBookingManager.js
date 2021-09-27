@@ -5,6 +5,7 @@ import SearchBox from '../../components/SearchBox/SearchBox';
 import Accommodation from '../../components/Accomodation/Accomodation';
 import TravelFrance from '../../components/TravelFrance/TravelFrance';
 import ExploreIslands from '../../components/ExploreIslands/ExploreIslands';
+import Footer from '../../components/Footer/Footer';
 
 class TravelBookingManager extends Component {
     render() {
@@ -18,9 +19,7 @@ class TravelBookingManager extends Component {
                     <TravelFrance/>
                     <ExploreIslands/>
                 </main>
-                <footer className="container-fluid">
-                    mon Footer
-                </footer>
+                <Footer/>
             </>
         )
     };
