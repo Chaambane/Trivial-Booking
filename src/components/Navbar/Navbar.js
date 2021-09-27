@@ -5,7 +5,7 @@ import LogoTrivialBooking from '../../assets/images/logo.png'
 
     const navbar = (props) => (
         <header className="container mt-4">
-            <nav className="navbar navbar-expand-lg p-3">
+            <nav className="navbar navbar-expand-lg fixed-top p-3">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#top">
                         <h1 className={[Classes.navH1].join(' ')}>
@@ -21,18 +21,18 @@ import LogoTrivialBooking from '../../assets/images/logo.png'
                             <ul className={["navbar-nav me-auto mb-2 mb-lg-0", Classes.navUl].join(' ')}>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#top" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Revue
+                                        Forum
                                     </a>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a className="dropdown-item" href="#top">Ecrire une revue</a></li>
-                                        <li><a className="dropdown-item" href="#top">Poster une photo</a></li>
+                                        <li><a className="dropdown-item" href="#top">Voyage</a></li>
+                                        <li><a className="dropdown-item" href="#top">Touriste</a></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#voyages">Voyages</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#alertes">Alertes</a>
+                                    <a className="nav-link" href="#alertes">Restaurants</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className={["nav-link", Classes.signIn].join(' ')} href="#registration">Sign-in</a>
