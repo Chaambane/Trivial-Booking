@@ -1,0 +1,12 @@
+.smallCard{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+}
+
+@media screen and (max-width: 790px){
+    .smallCard{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

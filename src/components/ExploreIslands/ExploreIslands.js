@@ -1,4 +1,5 @@
 import React from 'react';
+import Classes from './ExploreIslands.module.css';
 import ExploreCardXl from './ExploreCardXl/ExploreCardXl';
 import ExploreCard from './ExploreCard/ExploreCard';
 import Guadeloupe from '../../assets/images/islands/guadeloupe.png'
@@ -21,7 +22,7 @@ const exploreIslands = (props) => (
                 imgIles={Maurice}
                 info={"27 établissements"}
             />
-            <div className="d-flex justify-content-between mt-4">
+            <div className={["mt-4", Classes.smallCard].join(' ')}>
                 <ExploreCard
                     nomIles={"Reunion"}
                     imgIles={Reunion}

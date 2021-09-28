@@ -1,6 +1,7 @@
 .cardStyle{
     width: 21rem;
     text-decoration: none;
+    margin-top: 0.5rem;
 }
 .cardStyle > div{
     color: #4ac6bb;
