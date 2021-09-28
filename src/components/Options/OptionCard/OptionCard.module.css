@@ -4,11 +4,10 @@
     border: 0.1rem solid #f8dd74;
     border-radius: 0.7rem;
     margin-right: 1rem;
-    text-align: left;
+    text-align: center;
 }
 .cardStyle:hover{
     background-color: #f8dd74;
-    text-align: center;
 }
 .cardStyle > a{
     text-decoration: none;
@@ -16,4 +15,10 @@
     font-size: 1.1rem;
     font-weight: 900;
     color: #4ac6bb !important;
+}
+
+@media screen and (min-width: 340px) and (max-width: 1000px){
+    .cardStyle{
+        margin: 0.2rem;
+    }
 }
