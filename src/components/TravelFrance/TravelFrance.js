@@ -1,4 +1,5 @@
 import React from 'react';
+import Classes from './TravelFrance.module.css';
 import AccomodationCard from '../AccomodationCard/AccomodationCard';
 import Aix from '../../assets/images/city/aix.jpg';
 import Perpignan from '../../assets/images/city/perpignan.jpg';
@@ -9,7 +10,7 @@ const travelFrance = (props) => (
     <article className="container mt-4 p-2 shadow-sm p-3 mb-5 bg-body rounded">
         <h2 className="p-1 fw-bold ">Voyagez en France</h2>
         <h3 className="mt-0 fw-light">Les destinations prisées par nos clients</h3>
-        <div className="d-flex justify-content-around">
+        <div className={[Classes.travelBox].join(' ')}>
             <AccomodationCard
                 image={Aix}
                 titleCard={"Aix-en-Provence"}

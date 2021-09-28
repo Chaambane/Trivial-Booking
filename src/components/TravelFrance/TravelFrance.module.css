@@ -1,0 +1,11 @@
+.travelBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 790px){
+    .travelBox{
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+}
