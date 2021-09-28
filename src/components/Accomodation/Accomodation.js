@@ -1,4 +1,5 @@
 import React from 'react';
+import Classes from './Accommodation.module.css';
 import AccomodationCard from '../AccomodationCard/AccomodationCard';
 import Hotels from '../../assets/images/accommodationType/Hotels.jpg'
 import Appartement from '../../assets/images/accommodationType/Appartements.jpg'
@@ -8,7 +9,7 @@ import Villas from '../../assets/images/accommodationType/villas.jpg'
 const accommodation = (props) => (
     <article className="container mt-4 p-2">
         <h2 className="p-3 fw-bold text-uppercase">Les types d'hebergements</h2>
-        <div className="d-flex justify-content-around">
+        <div className={[Classes.accomodationBox].join(' ')}>
             <AccomodationCard
                 image={Hotels}
                 titleCard={"Hôtels"}

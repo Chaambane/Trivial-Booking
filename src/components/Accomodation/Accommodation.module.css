@@ -1,0 +1,12 @@
+.accomodationBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 790px){
+    .accomodationBox{
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+}
+
